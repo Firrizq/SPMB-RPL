@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=1280"/>
+  <title>Sistem Pendaftaran Mahasiswa Baru — Universitas Nusantara</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet"/>
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { min-width: 1280px; scroll-behavior: smooth; }
+    body { background: #FAF7F2; font-family: 'DM Sans', sans-serif; -webkit-font-smoothing: antialiased; color: #2C2C2C; }
+    #root { min-height: 100vh; }
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: #E8E2D9; border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: #B0A99A; }
+    input, select, textarea, button { font-family: inherit; }
+    ::placeholder { color: #B0A99A; }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+
+  <!-- Design tokens + shared components -->
+  <script type="text/babel" src="shared-desktop.jsx"></script>
+
+  <!-- Page components -->
+  <script type="text/babel" src="desktop-pages-1-2.jsx"></script>
+  <script type="text/babel" src="desktop-pages-3-4.jsx"></script>
+  <script type="text/babel" src="desktop-pages-5-6.jsx"></script>
+  <script type="text/babel" src="desktop-pages-7-8.jsx"></script>
+
+  <!-- App entry -->
+  <script type="text/babel" src="desktop-app.jsx"></script>
+</body>
+</html>
