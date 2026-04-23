@@ -1,5 +1,5 @@
 export const C = {
-  bg: '#FAF7F2',
+  bg: '#F5F0EA',
   primary: '#D4724A',
   primaryLight: '#F5E6DE',
   primaryDark: '#B85A35',
@@ -14,7 +14,7 @@ export const C = {
   warningLight: '#FDF3E3',
   error: '#C44B4B',
   errorLight: '#FDEAEA',
-  sidebar: '#2C2420',
+  sidebar: '#3B2D26',
 };
 
 export const T = {
